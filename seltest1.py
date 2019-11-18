@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 from bs4 import BeautifulSoup
 
-# driver = webdriver.Firefox(executable_path='/home/singhrohit41/Downloads/geckodriver-v0.24.0-linux64/geckodriver')
+
 driver = webdriver.Chrome('/home/singhrohit41/selenium/chromedriver')
 driver.get('https://parivahan.gov.in/rcdlstatus/?pur_cd=101')
 time.sleep(3)
